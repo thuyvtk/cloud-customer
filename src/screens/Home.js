@@ -1,54 +1,13 @@
 import React from 'react'
 import '../abc.css'
 import Item from '../components/Item'
+import Header from '../components/Header'
 
 function Home() {
   return (
     <div>
       {/* header */}
-      <div className="site-header-main header-fix">
-        <div className="">
-          <div className="">
-            <div className="w-full flex">
-              <div className="w-1/5">
-                <div className="header-logo">
-                  <img src={require("../assets/navigationBar/logo.png")} className="logo" alt="th" />
-                </div>
-              </div>
-              <div className="w-3/5">
-                <div className="header-search">
-                  <input type="search" className="search-field" placeholder="Tìm kiếm sản phẩm..." />
-                  <button type="submit" className="btn-search">Tìm kiếm</button>
-                </div>
-              </div>
-              <div className="w-1/5 flex">
-                {/* search */}
-                <div className="">
-                  <a className="flex items-center" href="http://capricathemes.com/wordpress/WCM01/WCM010020/WP2/">
-                    <img src={require("../assets/navigationBar/user.png")} className="user mx-2" alt="login" />
-                    <div className="text-white">
-                      <p className="font-medium">Đăng Nhập</p>
-                      <p className="font-medium">Đăng ký</p>
-                    </div>
-                  </a>
-                </div>
-                {/* cart */}
-                <div className="flex border-l-2 ml-2 border-white">
-                  <a className="flex items-center" href="http://capricathemes.com/wordpress/WCM01/WCM010020/WP2/">
-                    <img src={require("../assets/navigationBar/supermarket1.png")} className="cart mx-1" alt="cart" />
-                    <div className="">
-                      <div className="bg-red-500 w-5 rounded-full text-center text-sm text-white">0</div>
-                      <p className="font-medium text-white">Giỏ Hàng</p>
-                    </div>
-                  </a>
-                </div>
-                {/* login - register */}
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Header/>
       <div id="main" className="site-main">
         <div className="main_inner">
           <div className="main-content-inner-full">
@@ -94,18 +53,18 @@ function Home() {
                 </div>
                 <div className="flex flex-col">
                   <div className="mt-10 w-11/12 self-center flex flex-wrap">
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
+                    <Item name="Nike Air" price="1.000.000" linkBg="http://capricathemes.com/wordpress/WCM01/WCM010020/WP2/wp-content/uploads/2020/02/3-326x326.jpg" />
+                    <Item name="Nike Air" price="1.000.000" linkBg="http://capricathemes.com/wordpress/WCM01/WCM010020/WP2/wp-content/uploads/2020/02/3-326x326.jpg" />
+                    <Item name="Nike Air" price="1.000.000" linkBg="http://capricathemes.com/wordpress/WCM01/WCM010020/WP2/wp-content/uploads/2020/02/3-326x326.jpg" />
+                    <Item name="Nike Air" price="1.000.000" linkBg="http://capricathemes.com/wordpress/WCM01/WCM010020/WP2/wp-content/uploads/2020/02/3-326x326.jpg" />
+                    <Item name="Nike Air" price="1.000.000" linkBg="http://capricathemes.com/wordpress/WCM01/WCM010020/WP2/wp-content/uploads/2020/02/3-326x326.jpg" />
+                    <Item name="Nike Air" price="1.000.000" linkBg="http://capricathemes.com/wordpress/WCM01/WCM010020/WP2/wp-content/uploads/2020/02/3-326x326.jpg" />
+                    <Item name="Nike Air" price="1.000.000" linkBg="http://capricathemes.com/wordpress/WCM01/WCM010020/WP2/wp-content/uploads/2020/02/3-326x326.jpg" />
+                    <Item name="Nike Air" price="1.000.000" linkBg="http://capricathemes.com/wordpress/WCM01/WCM010020/WP2/wp-content/uploads/2020/02/3-326x326.jpg" />
+                    <Item name="Nike Air" price="1.000.000" linkBg="http://capricathemes.com/wordpress/WCM01/WCM010020/WP2/wp-content/uploads/2020/02/3-326x326.jpg" />
+                    <Item name="Nike Air" price="1.000.000" linkBg="http://capricathemes.com/wordpress/WCM01/WCM010020/WP2/wp-content/uploads/2020/02/3-326x326.jpg" />
+                    <Item name="Nike Air" price="1.000.000" linkBg="http://capricathemes.com/wordpress/WCM01/WCM010020/WP2/wp-content/uploads/2020/02/3-326x326.jpg" />
+                    <Item name="Nike Air" price="1.000.000" linkBg="http://capricathemes.com/wordpress/WCM01/WCM010020/WP2/wp-content/uploads/2020/02/3-326x326.jpg" />
                   </div>
                   <button className="w-1/6 self-center btnViewMore text-white font-medium text-sm py-2 px-2 rounded-sm">
                     XEM THÊM
