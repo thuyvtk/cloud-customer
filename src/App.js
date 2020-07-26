@@ -5,6 +5,7 @@ import Home from './screens/Home'
 import Test from './screens/Test'
 import ViewDetail from './screens/ViewDetail'
 import ViewCart from './screens/ViewCart'
+import LoginOrRegister from './screens/LoginOrRegister'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path="/loveThuy" component={Test}/>
       <Route path="/detail" component={ViewDetail}/>
       <Route path="/cart" component={ViewCart}/>
+      <Route path="/account" component={LoginOrRegister}/>
     </Switch>
       </BrowserRouter>
   )
