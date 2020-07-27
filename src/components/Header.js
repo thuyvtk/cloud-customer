@@ -14,7 +14,9 @@ function Header() {
         onClose={() => setLeftMenuModal(false)}
         visible={leftMenuModal}
       >
-        <p>Nam</p>
+        <a href="http://localhost:3000/shoes/men">
+          <p>Nam</p>
+        </a>
         <p>Nữ</p>
       </Drawer>
       <div className="">
